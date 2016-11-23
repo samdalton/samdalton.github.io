@@ -1,0 +1,131 @@
+
+/*
+	Copyright (C) 2011-2015 Hoefler & Co.
+	This software is the property of Hoefler & Co. (H&Co).
+	Your right to access and use this software is subject to the
+	applicable License Agreement, or Terms of Service, that exists
+	between you and H&Co. If no such agreement exists, you may not
+	access or use this software for any purpose.
+	This software may only be hosted at the locations specified in
+	the applicable License Agreement or Terms of Service, and only
+	for the purposes expressly set forth therein. You may not copy,
+	modify, convert, create derivative works from or distribute this
+	software in any way, or make it accessible to any third party,
+	without first obtaining the written permission of H&Co.
+	For more information, please visit us at http://typography.com.
+	205635-88749-20150331
+*/
+
+/**
+ * The fonts given to us by H&FJ had inlined data-URI .woff files, a separate
+ * font-family for each face, and other oddness. We base64decoded the URIs and
+ * rewrote the css.
+ */
+
+/**
+ * Gotham Display family.
+ *
+ * This family includes our all of our fonts EXCEPT for ScreenSmart fonts. To
+ * be used for settings 18px and larger.
+ *
+ * If we buy more non-ScreenSmart faces, they should be placed here.
+ */
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(/global-styles/fonts/gotham/270417F35AF8799CB.eot);
+  src: url(/global-styles/fonts/gotham/270417F35AF8799CB.eot?#hco) format('embedded-opentype'),
+       url(/global-styles/fonts/gotham/Gotham3r.woff);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(/global-styles/fonts/gotham/91D1361457A8B7B9C.eot);
+  src: url(/global-styles/fonts/gotham/91D1361457A8B7B9C.eot?#hco) format('embedded-opentype'),
+    url(/global-styles/fonts/gotham/Gotham4r.woff);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(/global-styles/fonts/gotham/D8D552F32DF10020A.eot);
+  src: url(/global-styles/fonts/gotham/D8D552F32DF10020A.eot?#hco) format('embedded-opentype'),
+    url(/global-styles/fonts/gotham/Gotham4i.woff);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(/global-styles/fonts/gotham/564BE8BADD768EEFA.eot);
+  src: url(/global-styles/fonts/gotham/564BE8BADD768EEFA.eot?#hco) format('embedded-opentype'),
+    url(/global-styles/fonts/gotham/Gotham5r.woff);
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(/global-styles/fonts/gotham/EEA615DCF2FA791DA.eot);
+  src: url(/global-styles/fonts/gotham/EEA615DCF2FA791DA.eot?#hco) format('embedded-opentype'),
+    url(/global-styles/fonts/gotham/Gotham7r.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamDisplay';
+  src: url(/global-styles/fonts/gotham/986197281F2ED666A.eot);
+  src: url(/global-styles/fonts/gotham/986197281F2ED666A.eot?#hco) format('embedded-opentype'),
+    url(/global-styles/fonts/gotham/Gotham8r.woff);
+  font-weight: 800;
+  font-style: normal;
+}
+
+/**
+ * Gotham Body family.
+ *
+ * This family includes our one, lonely ScreenSmart font (400 regular) as well
+ * as all of the display fonts EXCEPT 400 regular. To be used for body text.
+ *
+ * If we buy more ScreenSmart faces, they should be placed here.
+ */
+
+@font-face {
+  font-family: 'GothamBody';
+  src: url(/global-styles/fonts/gotham/270417F35AF8799CB.eot);
+  src: url(/global-styles/fonts/gotham/270417F35AF8799CB.eot?#hco) format('embedded-opentype'),
+    url(/global-styles/fonts/gotham/Gotham3r.woff);
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamBody';
+  src: url(/global-styles/fonts/gotham/6B36B38D424625C99.eot);
+  src: url(/global-styles/fonts/gotham/6B36B38D424625C99.eot?#hco) format('embedded-opentype'),
+    url(/global-styles/fonts/gotham/GothamSSm4r.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GothamBody';
+  src: url(/global-styles/fonts/gotham/D8D552F32DF10020A.eot);
+  src: url(/global-styles/fonts/gotham/D8D552F32DF10020A.eot?#hco) format('embedded-opentype'),
+    url(/global-styles/fonts/gotham/Gotham4i.woff);
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'GothamBody';
+  src: url(/global-styles/fonts/gotham/EEA615DCF2FA791DA.eot);
+  src: url(/global-styles/fonts/gotham/EEA615DCF2FA791DA.eot?#hco) format('embedded-opentype'),
+    url(/global-styles/fonts/gotham/Gotham7r.woff);
+  font-weight: 700;
+  font-style: normal;
+}
